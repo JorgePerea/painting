@@ -31,6 +31,7 @@ public class Administrador implements Serializable {
 
 	private Person person;
 	private String jsonText;
+	private Person gitValidate;
 
 	public Administrador() {
 		person = new Person();
