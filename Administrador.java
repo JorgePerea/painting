@@ -85,7 +85,7 @@ public class Administrador implements Serializable {
 			JSONArray array = (JSONArray) map.get("second");
 			FacesContext.getCurrentInstance().addMessage(
 					null,
-					new FacesMessage(FacesMessage.SEVERITY_INFO, "Information",
+					new FacesMessage(FacesMessage.SEVERITY_INFO, "Information:",
 							(String)array.get(0)));
 			jsonText = jsonObject.toString();
 			
