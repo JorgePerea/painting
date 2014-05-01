@@ -35,6 +35,7 @@ public class Administrador implements Serializable {
 	public Administrador() {
 		person = new Person();
 		jsonText = "";
+		nombre =""
 	}
 
 	public String getJsonText() {
