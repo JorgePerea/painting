@@ -92,7 +92,9 @@ public class Administrador implements Serializable {
 		} catch (JSONException ex) {
 			FacesContext.getCurrentInstance().addMessage(
 					null,
-					new FacesMessage(FacesMessage.SEVERITY_INFO, "Exce ption:",
+
+					new FacesMessage(FacesMessage.SEVERITY_INFO, "Exception: ",
+
 							ex.getMessage()));
 		}
 
